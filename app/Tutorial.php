@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Tutorial extends Model
 {
     //
+    protected $fillable = ['body', 'subject_id'];
 }
