@@ -10,10 +10,10 @@ The supported PHP version for running this project is 7.2.6.
 Launch xampp and start MySQL and PHP. Create a database 'homestead' @ localhost. Create a user 'homestead' with password 'secret' and grant all rights on the 'homestead' to it. Enter the root of the project the directory and run 'php artisan migrate'.
 
 ### Seed the database with the following in this order
-php artisan db:seed --class=CoursesTableSeeder
-php artisan db:seed --class=SubjectsTableSeeder
-php artisan db:seed --class=QuizsTableSeeder
-php artisan db:seed --class=TutorialsTableSeeder
+- php artisan db:seed --class=CoursesTableSeeder
+- php artisan db:seed --class=SubjectsTableSeeder
+- php artisan db:seed --class=QuizsTableSeeder
+- php artisan db:seed --class=TutorialsTableSeeder
 
 ### Test the 'courses' endpoint
 Run 'php artisan serve' from the root of the project. Open your browser and visit http://localhost:8000/api/courses .
@@ -28,8 +28,8 @@ Run 'php artisan serve' from the root of the project. Open your browser and visi
 - Choice: body, choice_number, question_id
 
 # URLs
-http://localhost:8000/api/courses
-http://localhost:8000/api/subjects
-http://localhost:8000/api/tutorials
-http://localhost:8000/api/questions
-http://localhost:8000/api/choices
+- http://localhost:8000/api/courses
+- http://localhost:8000/api/subjects
+- http://localhost:8000/api/tutorials
+- http://localhost:8000/api/questions
+- http://localhost:8000/api/choices
