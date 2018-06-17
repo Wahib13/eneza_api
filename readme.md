@@ -2,8 +2,8 @@
 
 ## Setup Instructions
 
-### Install xampp
-Visit https://www.apachefriends.org/index.html and download the version of xampp corresponding to your operating system.
+### Install MySQL and PHP
+You can visit https://www.apachefriends.org/index.html and download the version of xampp corresponding to your operating system.
 The supported PHP version for running this project is 7.2.6.
 
 ### Setup the database
@@ -18,6 +18,8 @@ Launch xampp and start MySQL and PHP. Create a database 'homestead' @ localhost.
 ### Test the 'courses' endpoint
 Run 'php artisan serve' from the root of the project. Open your browser and visit http://localhost:8000/api/courses .
 
+# Getting Credentials
+Visit http://localhost:8000/ and click on Register at the top right corner of the page. After registering you will automatically be logged in and be able to manage your OAuth clients which you can use in your own applications
 
 # Data Models and their corresponding fillable fields
 - Course: name
